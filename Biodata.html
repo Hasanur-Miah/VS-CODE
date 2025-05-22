@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marital Bio-Data Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            color: #333;
+            margin: 0;
+        }
+        .form-container {
+            width: 90%;
+            max-width: 500px;
+            margin: 20px auto;
+            background: #f9f9f9; /* Light gray background for better contrast */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            text-align: center;
+            color: #2575fc;
+            margin-bottom: 20px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background: #2575fc;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+        button:hover {
+            background: #6a11cb;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h1>Marital Bio-Data</h1>
+        <form>
+            <div class="form-group">
+                <label>Full Name:</label>
+                <input type="text" required>
+            </div>
+            <div class="form-group">
+                <label>Father's Name:</label>
+                <input type="text" required>
+            </div>
+            <div class="form-group">
+                <label>Mother's Name:</label>
+                <input type="text" required>
+            </div>
+            <div class="form-group">
+                <label>Age:</label>
+                <input type="number" required>
+            </div>
+            <div class="form-group">
+                <label>Gender:</label>
+                <select required>
+                    <option disabled selected>Select</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Present Address:</label>
+                <textarea rows="3"></textarea>
+            </div>
+            <div class="form-group">
+                <label>Permanent Address:</label>
+                <textarea rows="3"></textarea>
+            </div>
+            <div class="form-group">
+                <label>Height:</label>
+                <textarea rows="3"></textarea>
+            </div>
+            <div class="form-group">
+                <label>Hobby:</label>
+                <textarea rows="3"></textarea>
+            </div>
+            <div class="form-group">
+                <label>About Yourself:</label>
+                <textarea rows="4"></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,69 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #6a11cb, #2575fc);
+      color: #333;
+      margin: 0;
+    }
+    .form-container {
+      width: 90%;
+      max-width: 500px;
+      margin: 20px auto;
+      background: #f9f9f9; 
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    h1 {
+      text-align: center;
+      color: #2575fc;
+      margin-bottom: 20px;
+    }
+    .form-group {
+      margin-bottom: 15px;
+    }
+    label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    input,
+    select,
+    textarea,
+    .input-box {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      background: #fff;
+    }
+    .input-box {
+      padding: 10px;
+    }
+    .checkbox-group,
+    .radio-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .checkbox-group label,
+    .radio-group label {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      background: #2575fc;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+    button:hover {
+      background: #6a11cb;
+    }
+ 
